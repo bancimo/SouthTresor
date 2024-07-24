@@ -184,24 +184,38 @@
 
 .locationImg{
     width: 60%;
-    margin-top: 80px; 
+    margin-top: 30px; 
     margin-bottom: 20px;
 }
 .locationdesc{
     text-align: center;
+    width: 68%;
+    font-size: 18px;
+    margin: auto;
 }
 .detail{
     display: inline-block; 
     text-align: center;
 }
 .listdetail{
-    padding: 0; 
-    list-style: none; 
-    line-height: 25px;
+    /* padding: 0; 
+    list-style: circle; 
+    line-height: 25px; */
+    text-align: start;
+    margin-left: -80px;
+    list-style:circle;
+
 }
 .listdetail li{
-    list-style: none;
+    list-style: circle;
 }
+
+
+
+/* .listdetail li{
+    list-style: none;
+} */
+ 
 .unitdetail{
     position: absolute; 
     right: -350px; 
@@ -337,12 +351,13 @@
     width: 80%;
 }
 .locationdesc{
-    text-align: start;
-    margin-left: 20px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
 }
 .listdetail{
     text-align: start;
-    margin-left: -80px;
+    margin-left: 0px;
     list-style:circle;
 }
 .listdetail li{
