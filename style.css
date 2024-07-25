@@ -188,7 +188,7 @@
     margin-bottom: 20px;
 }
 .locationdesc{
-    text-align: center;
+    text-align: start;
     width: 68%;
     font-size: 18px;
     margin: auto;
@@ -351,7 +351,7 @@
     width: 80%;
 }
 .locationdesc{
-    text-align: center;
+    text-align: start;
     width: 90%;
     margin: auto;
 }
